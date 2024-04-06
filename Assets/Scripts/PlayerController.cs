@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform laserSpawnPoint;
     [SerializeField] Transform laserHolder;
     [SerializeField] EnemySpawn enemyController;
-    [SerializeField] AudioClip audioClip;
+    [SerializeField] AudioSource audioClip;
     float _rotateSpeed = 200f;
     float _moveSpeed = 5f;
     int playerHealth = 500;
@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
     {
         GameObject Laser = Instantiate(laser, laserSpawnPoint.position, laserSpawnPoint.rotation, laserHolder);
         Laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0f,laserSpawnPoint.position.y * _moveSpeed);
-        AudioSource.PlayClipAtPoint(audioClip, transform.position, 500f);
+        audioClip.Play();
         yield return new WaitForSeconds(.1f);
         Destroy(Laser, 3f);
     }

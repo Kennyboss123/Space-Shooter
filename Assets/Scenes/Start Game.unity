@@ -788,7 +788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.051625006, y: 0.62883335}
   m_AnchorMax: {x: 0.95618755, y: 0.84125006}
-  m_AnchoredPosition: {x: 2.3370972, y: 4.666542}
+  m_AnchoredPosition: {x: 2.3370972, y: 4.6665344}
   m_SizeDelta: {x: 14.052185, y: -5.511902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1439906003
@@ -922,7 +922,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.051625006, y: 0.5}
   m_AnchorMax: {x: 0.95618755, y: 0.62883335}
-  m_AnchoredPosition: {x: -2.4986572, y: 3.7130013}
+  m_AnchoredPosition: {x: -2.4986572, y: -7}
   m_SizeDelta: {x: 4.380005, y: 7.427002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551168037
@@ -945,7 +945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Can you shoot down space villains before they shoot you down??
+  m_text: Can you shoot down space ships before they shoot you down??
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1151,6 +1151,10 @@ PrefabInstance:
     - target: {fileID: 2154215285296552777, guid: 5b1a0c04d0be7494c854f8824760a08e, type: 3}
       propertyPath: m_Name
       value: Game Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154215285296552782, guid: 5b1a0c04d0be7494c854f8824760a08e, type: 3}
+      propertyPath: m_Volume
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 2154215285296552782, guid: 5b1a0c04d0be7494c854f8824760a08e, type: 3}
       propertyPath: m_Enabled
