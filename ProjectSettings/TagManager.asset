@@ -12,6 +12,10 @@ TagManager:
   - EnemyBullet
   - ScoreText
   - Gift
+  - BlumDestroyBall
+  - BlumBall
+  - BonusBall
+  - Hyper
   layers:
   - Default
   - TransparentFX
@@ -19,7 +23,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start Game.unity
+    path: Assets/Space Shooter/Scenes/Start Game.unity
     guid: db4bcb27e442ec74997569a5a12d78f0
   - enabled: 1
-    path: Assets/Scenes/SpaceShooter.unity
+    path: Assets/Space Shooter/Scenes/SpaceShooter.unity
     guid: e5314f9cfab26274782d329e4de587b9
   - enabled: 1
-    path: Assets/Scenes/Game Over.unity
+    path: Assets/Space Shooter/Scenes/Game Over.unity
     guid: 1669ac0d640aa424d8c9ccad46758d11
+  - enabled: 1
+    path: Assets/Blum Game Prototype/Scenes/StartGame.unity
+    guid: 76bde73577a2239449150fa6fa208f92
+  - enabled: 1
+    path: Assets/Blum Game Prototype/Scenes/Game.unity
+    guid: d5814b7773a27e2458fa478f75ea7d11
+  - enabled: 1
+    path: Assets/Blum Game Prototype/Scenes/GameOver.unity
+    guid: b2183878300aa7c49a5e1be259726674
   m_configObjects: {}

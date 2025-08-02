@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a66a5ec268fa9e40bb7889bc1cf0245, type: 3}
+  m_Name: Regular
+  m_EditorClassIdentifier: 
+  ballType: 2
+  powerValue: 10
+  ballVfx: {fileID: 1992574967045208656, guid: fe1c2b2b2b76648418a3911666e7277b, type: 3}
+  freezeValue: 0
+  color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 0}
+  minValue: 24
+  maxValue: 100
